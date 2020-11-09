@@ -28,14 +28,14 @@
 		),
 		'DATABASES' => array(
 			'local_rodzina' => array(
-				'dsn' => 'mysql:dbname=rodzina;host=192.168.1.108;port=3306;charset=UTF8',
-				'user' => '',
+				'dsn' => 'mysql:dbname=rodzina;host=localhost;port=3306;charset=UTF8',
+				'user' => 'root',
 				'passwd' => '',
 				'script' => '_DBConnectRodzina.php',
 			),
 			'fajnenet_rodzina' => array(
-				'dsn' => 'mysql:dbname=;host=;port=3306;charset=UTF8',
-				'user' => '',
+				'dsn' => 'mysql:dbname=rodzina;host=;port=3306;charset=UTF8',
+				'user' => 'root',
 				'passwd' => '',
 				'script' => '_DBConnectRodzina.php',
 			),
